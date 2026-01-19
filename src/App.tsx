@@ -137,7 +137,7 @@ export default function App() {
             </div>
             <div className="text-center md:text-left">
               <h1 className={`text-3xl md:text-5xl font-black tracking-tighter leading-tight mb-3 ${darkMode ? 'text-white' : 'text-slate-900'} transition-colors`}>
-                Frontend Developer &<br/>
+                Frontend Developer<br/>
                 <span className="text-[19px] text-blue-600 dark:text-blue-400"> I ng. José Rodríguez</span><br/> 
               </h1>
                 <p className="text-slate-600 dark:text-slate-400 text-sm font-medium max-w-md italic transition-colors">
