@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+#contacto, #galeria {
+  scroll-margin-top: 80px; 
+}
