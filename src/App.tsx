@@ -102,7 +102,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2 group cursor-default">
             <div className="w-8 h-8 bg-slate-900 dark:bg-blue-600 rounded-lg flex items-center justify-center text-white font-black rotate-3 group-hover:rotate-0 transition-all">J</div>
-            <h1 className={`text-xs font-black ${darkMode ? 'text-white' : 'text-black'} tracking-tighter uppercase`}>Engineer<span className="text-blue-600 dark:text-blue-400">.Lab</span></h1>
+            <h2 className={`text-xs font-black ${darkMode ? 'text-white' : 'text-black'} tracking-tighter uppercase`}>Engineer<span className="text-blue-600 dark:text-blue-400">.Lab</span></h2>
           </div>
           <div className="flex gap-3 items-center">
             {/* Toggle Dark Mode */}
@@ -136,10 +136,11 @@ export default function App() {
               </div>
             </div>
             <div className="text-center md:text-left">
-              <h2 className={`text-3xl md:text-5xl font-black tracking-tighter leading-tight mb-3 ${darkMode ? 'text-white' : 'text-slate-900'} transition-colors`}>
+              <h1 className={`text-3xl md:text-5xl font-black tracking-tighter leading-tight mb-3 ${darkMode ? 'text-white' : 'text-slate-900'} transition-colors`}>
                 Frontend Developer &<br/>
-                <span className="text-blue-600 dark:text-blue-400"> SEO Specialist <p className={`text-[19px] tracking-tighter  ${darkMode ? 'text-white' : 'text-slate-900'}`}>I ng. José Rodríguez</p> </span>
-              </h2>
+                <span className="text-blue-600 dark:text-blue-400"> SEO Specialist</span> 
+                <span className={`text-[19px] tracking-tighter  ${darkMode ? 'text-white' : 'text-slate-900'}`}>I ng. José Rodríguez</span> 
+              </h1>
                 <p className="text-slate-600 dark:text-slate-400 text-sm font-medium max-w-md italic transition-colors">
                     "Especializado en interfaces de alto rendimiento y optimización SEO técnica."
                 </p>
