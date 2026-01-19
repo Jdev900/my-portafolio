@@ -79,7 +79,7 @@ export default function App() {
 
   // --- FUNCIONES ---
   const copiarEmail = () => {
-    navigator.clipboard.writeText("tu-correo@real.com");
+    navigator.clipboard.writeText("joaedaniel@gmail.com");
     setCopiado(true);
     setTimeout(() => setCopiado(false), 2000);
   };

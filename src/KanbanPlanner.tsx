@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { 
-  Plus, Layout, MessageSquare, Paperclip, ChevronRight, 
-  X, Send, File, Loader2, CloudUpload, CheckCircle
+  Plus, MessageSquare, Paperclip, ChevronRight, 
+  X, Send, File, Loader2, CloudUpload
 } from 'lucide-react';
 
 // --- Interfaces ---
