@@ -32,7 +32,7 @@ const ART_DATA = [
     category: "Productivity SaaS",
     stack: ["React", "UX Design"],
     githubUrl: "https://github.com/Jdev900",
-    url: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800",
+    url: "/proyecto3.png",
     desc: "Gestor de flujos de trabajo con persistencia de estado y drag-and-drop."
   }
 ];
@@ -146,108 +146,121 @@ export default function App() {
             </div>
           </header>
 
-          {/* 2. TECH STACK PREMIUM */}
-<section className="md:col-span-4 md:row-span-2 flex flex-col gap-4">
-  {/* 1. CARD EXPERTISE: Efecto "Cyber-Glass" con Aura dinámica */}
-  <div className="flex-1 bg-[#020617] rounded-[2.5rem] p-8 relative overflow-hidden group shadow-2xl border border-white/10">
-    {/* Orbe de luz animado de fondo */}
-    <div className="absolute -top-20 -right-20 w-64 h-64 bg-blue-500/20 rounded-full blur-[100px] group-hover:bg-blue-500/40 transition-all duration-1000 animate-pulse"></div>
-    <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-indigo-500/10 rounded-full blur-[80px]"></div>
+          {/* 2. TECH STACK*/}
+          <section className="md:col-span-4 md:row-span-2 flex flex-col gap-4">
+            {/* 1. CARD EXPERTISE: Efecto "Cyber-Glass" con Aura dinámica */}
+            <div className="flex-1 bg-[#020617] rounded-[2.5rem] p-8 relative overflow-hidden group shadow-2xl border border-white/10">
+              {/* Orbe de luz animado de fondo */}
+              <div className="absolute -top-20 -right-20 w-64 h-64 bg-blue-500/20 rounded-full blur-[100px] group-hover:bg-blue-500/40 transition-all duration-1000 animate-pulse"></div>
+              <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-indigo-500/10 rounded-full blur-[80px]"></div>
 
-    <div className="relative z-10 flex flex-col h-full">
-      <div className="flex items-center justify-between mb-10">
-        <div className="space-y-1">
-          <div className="flex items-center gap-2">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
-            </span>
-            <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-blue-400/80">Stack Principal</h3>
-          </div>
-          <p className="text-3xl font-black tracking-tighter text-white">Frontend <span className="text-blue-500 italic">Core</span></p>
-        </div>
-        <div className="w-14 h-14 bg-gradient-to-br from-white/10 to-white/5 rounded-2xl flex items-center justify-center border border-white/10 backdrop-blur-md group-hover:border-blue-500/50 transition-all duration-500 group-hover:rotate-6">
-          <Code2 size={28} className="text-blue-400" />
-        </div>
-      </div>
+              <div className="relative z-10 flex flex-col h-full">
+                <div className="flex items-center justify-between mb-10">
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2">
+                      <span className="relative flex h-2 w-2">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                      </span>
+                      <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-blue-400/80">Stack Principal</h3>
+                    </div>
+                    <p className="text-3xl font-black tracking-tighter text-white">Frontend <span className="text-blue-500 italic">Core</span></p>
+                  </div>
+                  <div className="w-14 h-14 bg-gradient-to-br from-white/10 to-white/5 rounded-2xl flex items-center justify-center border border-white/10 backdrop-blur-md group-hover:border-blue-500/50 transition-all duration-500 group-hover:rotate-6">
+                    <Code2 size={28} className="text-blue-400" />
+                  </div>
+                </div>
 
-      <div className="space-y-6">
-        {[
-          { name: 'React 19 Architecture', color: 'from-blue-600 to-cyan-400', icon: '⚛️' },
-          { name: 'Next.js 15 / SEO-SSR', color: 'from-slate-400 to-white', icon: '🚀' },
-          { name: 'TypeScript / Enterprise', color: 'from-blue-500 to-indigo-400', icon: '🔷' }
-        ].map((tech) => (
-          <div key={tech.name} className="group/item relative">
-            <div className="flex justify-between items-center mb-3">
-              <div className="flex items-center gap-2">
-                <span className="text-xs grayscale group-hover/item:grayscale-0 transition-all">{tech.icon}</span>
-                <span className="text-[11px] font-black text-slate-400 uppercase tracking-widest group-hover/item:text-white transition-colors">{tech.name}</span>
+                <div className="space-y-6">
+                  {[
+                    { name: 'React 19 Architecture', color: 'from-blue-600 to-cyan-400', icon: '⚛️' },
+                    { name: 'Next.js 15 / SEO-SSR', color: 'from-slate-400 to-white', icon: '🚀' },
+                    { name: 'TypeScript / Enterprise', color: 'from-blue-500 to-indigo-400', icon: '🔷' }
+                  ].map((tech) => (
+                    <div key={tech.name} className="group/item relative">
+                      <div className="flex justify-between items-center mb-3">
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs grayscale group-hover/item:grayscale-0 transition-all">{tech.icon}</span>
+                          <span className="text-[11px] font-black text-slate-400 uppercase tracking-widest group-hover/item:text-white transition-colors">{tech.name}</span>
+                        </div>
+                      </div>
+                      <div className="h-[6px] w-full bg-white/5 rounded-full overflow-hidden p-[1px]">
+                        <div 
+                          className={`h-full bg-gradient-to-r ${tech.color} rounded-full transition-all duration-1000 ease-out group-hover:shadow-[0_0_15px_rgba(59,130,246,0.6)]`} 
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="h-[6px] w-full bg-white/5 rounded-full overflow-hidden p-[1px]">
-              <div 
-                className={`h-full bg-gradient-to-r ${tech.color} rounded-full transition-all duration-1000 ease-out group-hover:shadow-[0_0_15px_rgba(59,130,246,0.6)]`} 
-              />
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
 
-  {/* 2. CARD PERFORMANCE: Estilo "Glass-List" */}
-  <div className={`${darkMode ? 'bg-slate-900/40 border-slate-800' : 'bg-white border-slate-100'} border rounded-[2.5rem] p-7 shadow-sm group hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 relative overflow-hidden backdrop-blur-sm`}>
-    <div className="flex items-center gap-4 mb-8">
-      <div className="w-12 h-12 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center text-white shadow-lg group-hover:rotate-12 transition-all">
-        <Globe size={22} />
-      </div>
-      <div>
-        <h3 className="text-[9px] font-black uppercase tracking-[0.3em] text-slate-400">Optimization</h3>
-        <p className={`font-black text-xl tracking-tighter ${darkMode ? 'text-white' : 'text-slate-900'}`}>SEO & Performance</p>
-      </div>
-    </div>
-    
-    <div className="flex flex-wrap gap-2">
-      {['Core Web Vitals', 'Search Console', 'Semantic HTML', 'PageSpeed'].map((t, i) => (
-        <div key={t} className={`flex items-center gap-2 px-4 py-2 ${darkMode ? 'bg-white/5 hover:bg-white/10' : 'bg-slate-50 hover:bg-blue-50'} rounded-xl border border-transparent group-hover:border-blue-500/20 transition-all cursor-default`}>
-          <div className={`w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse`} style={{ animationDelay: `${i * 200}ms` }}></div>
-          <span className="text-[10px] font-black text-slate-500 dark:text-slate-400 uppercase tracking-tight">{t}</span>
-        </div>
-      ))}
-    </div>
-  </div>
-
-  {/* 3. CARD DESIGN: Estilo "Minimalist Floating" */}
-  <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-[2.5rem] p-6 text-white flex items-center justify-between group overflow-hidden relative shadow-xl hover:shadow-indigo-500/20 transition-all">
-    <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
-    
-    <div className="relative z-10 flex flex-col gap-1">
-      <h3 className="text-[9px] font-black uppercase tracking-[0.3em] text-indigo-200">Creative Ops</h3>
-      <p className="text-xl font-black tracking-tighter leading-none italic group-hover:translate-x-1 transition-transform">Figma & Adobe</p>
-    </div>
-    
-    <div className="relative z-10 flex items-center gap-3">
-        <div className="flex -space-x-3">
-            {[Layers, Globe].map((Icon, i) => (
-                <div key={i} className="w-10 h-10 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center hover:z-20 hover:scale-110 hover:bg-white/20 transition-all">
-                    <Icon size={18} />
+            {/* 2. CARD PERFORMANCE: Estilo "Glass-List" */}
+            <div className={`${darkMode ? 'bg-slate-900/40 border-slate-800' : 'bg-white border-slate-100'} border rounded-[2.5rem] p-7 shadow-sm group hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 relative overflow-hidden backdrop-blur-sm`}>
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-12 h-12 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center text-white shadow-lg group-hover:rotate-12 transition-all">
+                  <Globe size={22} />
                 </div>
-            ))}
-        </div>
-        <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-white text-indigo-600 transition-all">
-            <ArrowUpRight size={14} className="group-hover:rotate-45 transition-transform" />
-        </div>
-    </div>
-  </div>
-</section>
+                <div>
+                  <h3 className="text-[9px] font-black uppercase tracking-[0.3em] text-slate-400">Optimization</h3>
+                  <p className={`font-black text-xl tracking-tighter ${darkMode ? 'text-white' : 'text-slate-900'}`}>SEO & Performance</p>
+                </div>
+              </div>
+              
+              <div className="flex flex-wrap gap-2">
+                {['Core Web Vitals', 'Search Console', 'Semantic HTML', 'PageSpeed'].map((t, i) => (
+                  <div key={t} className={`flex items-center gap-2 px-4 py-2 ${darkMode ? 'bg-white/5 hover:bg-white/10' : 'bg-slate-50 hover:bg-blue-50'} rounded-xl border border-transparent group-hover:border-blue-500/20 transition-all cursor-default`}>
+                    <div className={`w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse`} style={{ animationDelay: `${i * 200}ms` }}></div>
+                    <span className="text-[10px] font-black text-slate-500 dark:text-slate-400 uppercase tracking-tight">{t}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* 3. CARD DESIGN: Estilo "Minimalist Floating" */}
+            <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-[2.5rem] p-6 text-white flex items-center justify-between group overflow-hidden relative shadow-xl hover:shadow-indigo-500/20 transition-all">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
+              
+              <div className="relative z-10 flex flex-col gap-1">
+                <h3 className="text-[9px] font-black uppercase tracking-[0.3em] text-indigo-200">Creative Ops</h3>
+                <p className="text-xl font-black tracking-tighter leading-none italic group-hover:translate-x-1 transition-transform">Figma & Adobe</p>
+              </div>
+              
+              <div className="relative z-10 flex items-center gap-3">
+                  <div className="flex -space-x-3">
+                      {[Layers, Globe].map((Icon, i) => (
+                          <div key={i} className="w-10 h-10 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center hover:z-20 hover:scale-110 hover:bg-white/20 transition-all">
+                              <Icon size={18} />
+                          </div>
+                      ))}
+                  </div>
+                  <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-white text-indigo-600 transition-all">
+                      <ArrowUpRight size={14} className="group-hover:rotate-45 transition-transform" />
+                  </div>
+              </div>
+            </div>
+          </section>
 
           {/* 3. CARRUSEL DE PROYECTOS */}
           <section className={`md:col-span-8 relative ${darkMode ? 'bg-slate-900 border-slate-800' : 'bg-white border-slate-100'} border rounded-[2.5rem] shadow-sm group overflow-hidden h-[500px] md:h-[400px] transition-colors`}>
             <div key={indiceProyecto} className="relative h-full w-full flex flex-col md:flex-row gap-8 p-8 animate-cross-fade">
-              <div onClick={() => { setProyectoSeleccionado(ART_DATA[indiceProyecto]); setModalAbierto(true); }} className="w-full md:w-[45%] h-44 md:h-full shrink-0 rounded-[2rem] overflow-hidden bg-slate-100 dark:bg-slate-800 relative cursor-pointer">
-                <img src={ART_DATA[indiceProyecto].url} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2000ms]" alt={ART_DATA[indiceProyecto].title} />
-                <div className="absolute inset-0 bg-slate-900/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-[2px]">
-                  <div className="bg-white/90 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest text-slate-900 shadow-xl">Explorar Proyecto</div>
+              <div 
+                onClick={() => { setProyectoSeleccionado(ART_DATA[indiceProyecto]); setModalAbierto(true); }} 
+                className="group w-full md:w-[45%] h-44 md:h-full shrink-0 rounded-[2rem] overflow-hidden bg-slate-100 dark:bg-slate-800 relative cursor-pointer"
+                role="button"
+                aria-label={`Ver detalles del proyecto ${ART_DATA[indiceProyecto].title}`}
+              >
+                <img 
+                  src={ART_DATA[indiceProyecto].url} 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2000ms]" 
+                  alt={`Captura de pantalla del proyecto ${ART_DATA[indiceProyecto].title}`} 
+                  loading="lazy"
+                />
+                
+                <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-[2px]">
+                  <div className="bg-white/90 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest text-slate-900 shadow-xl">
+                    Explorar Proyecto
+                  </div>
                 </div>
               </div>
 
